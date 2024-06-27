@@ -1,11 +1,11 @@
-export class book{
+export class book {
     titulo: string;
     autor: string;
-    genero: string; 
+    genero: string;
     idioma: string;
     precio: number;
     descripcion: string;
-    fecha_publicacion: string; 
+    fecha_publicacion: string;
     editorial: string;
     paginas: number;
     dimensiones: string;
@@ -15,17 +15,17 @@ export class book{
     constructor(
         titulo: string,
         autor: string,
-        genero: string, 
+        genero: string,
         idioma: string,
         precio: number,
         descripcion: string,
-        fecha_publicacion: string, 
+        fecha_publicacion: string,
         editorial: string,
         paginas: number,
         dimensiones: string,
         disponible: boolean,
         cantidad_stock: number
-    ){
+    ) {
         this.titulo = titulo;
         this.autor = autor;
         this.genero = genero;
